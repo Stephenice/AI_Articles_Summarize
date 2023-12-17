@@ -10,7 +10,7 @@ import { copy, linkIcon, loaderone,  tick } from "../assets";
  * 
 */
 
-function Demo() {
+function Article() {
     const [article, setArticle] = useState({
         url: "",
         summary: "",
@@ -145,4 +145,4 @@ function Demo() {
   )
 }
 
-export default Demo
+export default Article

@@ -1,5 +1,5 @@
 import Hero from "./components/Hero";
-import Demo from "./components/Demo";
+import Article from "./components/Article";
 import './App.css';
 // import { useState } from 'react'
 
@@ -13,7 +13,7 @@ function App() {
 
       <div className='app'>
         <Hero />
-        <Demo />
+        <Article />
       </div>
     </main>
   )
