@@ -4,7 +4,7 @@ SummarAI is a cutting-edge web application designed to simplify the process of s
 
 ## Features
 
-- **Article Summarization:** Users can input the URL of an article, and SummarAI's AI-powered backend powered by OpenAI GPT-4 will generate a summary of the content.
+- **Article Summarization:** Users can input the URL of an article, and SummarAI's AI-powered by OpenAI GPT-4 will generate a summary of the content.
 
 - **User-friendly Interface:** Built using React, the frontend provides an intuitive and responsive interface for users to interact with the application effortlessly.
 
