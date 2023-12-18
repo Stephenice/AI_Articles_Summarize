@@ -1,12 +1,22 @@
 import { useState, useEffect } from "react";
 import { useLazyGetSummaryQuery } from "../services/article";
 import { copy, linkIcon, loaderone,  tick } from "../assets";
-// import loaderone from '../assets/loaderone.gif';
+
 
 /**  
- * Description: This component is used to display the summary of an article.
+* The Article component serves as a dynamic section to fetch, summarize, and display articles, offering a streamlined user experience.
+ * It uses state management (useState) to control article data, including URL and summarized content, as well as localStorage 
+ * for persisting article history across sessions.
  * 
+ * Key functionalities include:
+ * - Input form for users to paste article URLs, triggering a summary retrieval upon submission.
+ * - Display of URL history, allowing users to click and view past articles. The copy button functionality enhances user convenience by enabling easy URL copying.
+ * - Presentation of fetched article summaries with conditional rendering for loader display, potential errors, and the article summary itself.
  * 
+ * Noteworthy features:
+ * - Utilization of useEffect to load and sync data from localStorage on component mount.
+ * - Implementation of useLazyGetSummaryQuery for handling asynchronous API calls and managing loading states.
+ * - Integration of state updates and localStorage modifications upon successful article summary retrieval.
  * 
 */
 

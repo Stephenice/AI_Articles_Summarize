@@ -1,4 +1,13 @@
-// import { logo } from "../assets";
+/**
+ * The Hero component serves as the introductory section for the application.
+ * It comprises a header structure with logo and a GitHub button.
+ * Utilizing flexbox for layout arrangement, this component is responsive and adjusts well across various screen sizes.
+ * 
+ * Additionally, a descriptive subheading ('desc') the purpose of the application—
+ * to simplify reading by providing clear and concise summaries of lengthy articles.
+ * 
+ */
+
 
 export default function Hero() {
   return (
