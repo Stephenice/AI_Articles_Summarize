@@ -25,21 +25,29 @@ git clone https://github.com/Stephenice/AI_Articles_Summarize.git
 
 #### 2. Navigate to the project directory:
 
+```
 cd AI_Articles_Summarize
+```
 
 #### 3. Install dependencies:
 
+```
 npm install
+```
 
 #### 4. Set up environment variables:
 
-Create a .env file in the root directory and add your OpenAI GPT-4 API key:
+Create a .env file in the root directory and add your API key:
 
+```
 VITE_RAPID_API_ARTICLE_KEY=your-api-key-here
+```
 
 #### 5. Start the application:
 
+```
 npm start
+```
 
 #### 6. Start the application:
 
