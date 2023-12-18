@@ -19,7 +19,9 @@ SummarAI is a cutting-edge web application designed to simplify the process of s
 
 #### 1. Clone this repository:
 
+```
 git clone https://github.com/Stephenice/AI_Articles_Summarize.git
+```
 
 #### 2. Navigate to the project directory:
 
